@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-
 <head>
-	<title>INPUT DATA</title>
+	<title>DASHBOARD</title>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	<meta charset="utf-8" />
 	<meta name="description" content="
             The most advanced Bootstrap 5 Admin Theme with 40 unique prebuilt layouts on Themeforest trusted by 100,000 beginners and professionals. Multi-demo, 
@@ -30,10 +30,7 @@
 
 	<!--begin::Fonts(mandatory for all pages)-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
-	<link
-	rel="stylesheet"
-	href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css"
-	/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css" />
 	<!--end::Fonts-->
 
 	<!--begin::Vendor Stylesheets(used for this page only)-->
@@ -159,8 +156,8 @@
 									<i class="ki-outline ki-right fs-7 text-gray-700 mx-n1"></i> </li>
 								<!--end::Item-->
 
-											
-							<!--end::Title-->
+
+								<!--end::Title-->
 						</div>
 						<!--end::Page title-->
 					</div>
@@ -219,7 +216,7 @@
 									<a href="#" class="menu-link px-3 py-3 active" data-kt-element="project">
 										<!--begin::Logo-->
 										<span class="d-flex flex-center flex-shrink-0 w-40px me-3">
-											<img alt="Logo" src="assets/media/logos/default-small.svg"
+											<img alt="Logo" src="assets/media/logos/change-mode.png"
 												data-kt-element="logo" class="h-30px" />
 										</span>
 										<!--end::Logo-->
@@ -381,7 +378,7 @@
 											Input Data </span>
 										<!--end::Title-->
 
-																			</a>
+									</a>
 									<!--end:::Menu link-->
 								</div>
 								<div class="menu-item">
@@ -401,7 +398,7 @@
 									<!--end:::Menu link-->
 								</div>
 								<!--end::Menu Item-->
-								
+
 							</div>
 							<!--end::Quick links-->
 
@@ -409,7 +406,7 @@
 							<div class="separator mx-10"></div>
 							<!--end::Separator-->
 							<!--begin::Sidebar menu-->
-							
+
 							<!--begin::Separator-->
 							<div class="separator mx-10"></div>
 							<!--end::Separator-->
@@ -471,18 +468,18 @@
 												</span>
 											</a>
 										</div>
-										
+
 									</div>
 									<!--end::Menu-->
 
 								</div>
-								
+
 							</div>
 							<!--end::User account menu-->
 							<!--end::Menu wrapper-->
 						</div>
 						<!--end::User menu-->
-						
+
 					</div>
 					<!--end::Footer-->
 				</div>
@@ -506,126 +503,175 @@
 								<div class="card mb-5 mb-xl-10">
 									<div class="card-body pt-9 pb-0">
 										<!--begin::Details-->
-										<div class="d-flex flex-wrap flex-sm-nowrap mb-3">
-											<div class="container">
-												<center>
-												<h1 class="menu-title">INPUT DATA</h1>
-												</center>
-																								<!-- Dashboard content here -->
-												<form action="" >
-													<div class="form-group">
-														<label for="inputKecamatan" class="breadcrumb-item text-gray-600 fw-bold lh-1 menu-title">Kecamatan</label>
-														<select class="form-control select2" id="inputKecamatan">
-															<option value="Wonosari">Wonosari</option>
-															<option value="Nglipar">Nglipar</option>
-															<option value="Playen">Playen</option>
-															<option value="Patuk">Patuk</option>
-															<option value="Paliyan">Paliyan</option>
-															<option value="Wonosari">Panggang</option>
-															<option value="Nglipar">Tepus</option>
-															<option value="Playen">Semanu</option>
-															<option value="Patuk">Karangmojo</option>
-															<option value="Paliyan">Ponjong</option>
-															<option value="Paliyan">Rongkop</option>
-															<option value="Wonosari">Semin</option>
-															<option value="Nglipar">Ngawen</option>
-															<option value="Playen">Gedangsari</option>
-															<option value="Patuk">Saptosari</option>
-															<option value="Paliyan">Girisubo</option>
-															<option value="Patuk">Tanjungsari</option>
-															<option value="Paliyan">Purwosari</option>
-														</select>
-													</div>
-													<div class="form-group" id="desaForm">
-														<br>
-														<label for="inputDesa" class="breadcrumb-item text-gray-600 fw-bold lh-1 menu-title">Desa</label>
-														<select class="form-control select2" id="inputDesa">
-															<!-- Options will be dynamically added here based on selection -->
-														</select>
-													</div>
-													<div class="form-group">
-														<br>
-														<p class="breadcrumb-item text-gray-600 fw-bold lh-1">No TPS</p>
-														<input class="form-control " type="text" placeholder="No TPS"> 
-																											</div>
-													<div class="form-group">
-														<br>
-														<p class="breadcrumb-item text-gray-600 fw-bold lh-1">Nama Saksi</p>
-														<input class="form-control" type="text" placeholder="Nama Saksi">
-													</div>
-										
-													<div class="form-group">
-														<br>
-														<p class="breadcrumb-item text-gray-600 fw-bold lh-1">Cagub 1</p>
-														<input class="form-control" type="text" placeholder="Suara SAH">
-													</div>
-													<div class="form-group">
-														<br>
-														<p class="breadcrumb-item text-gray-600 fw-bold lh-1">Cagub 2</p>
-														<input class="form-control" type="text" placeholder="Suara SAH">
-													</div>
-													<div class="form-group">
-														<br>
-														<p class="breadcrumb-item text-gray-600 fw-bold lh-1">Cagub 3</p>
-														<input class="form-control" type="text" placeholder="Suara SAH">
-													</div>
-													<br>
-												</form>
-												<button type="button" class="btn btn-primary proses">Submit</button>
-											</div>
-										
-											<script>
-												// Define the desa options for each kecamatan
-												const desaOptions = {
-													'Wonosari': ['Wonosari', 'Kepek', 'Piyaman', 'Gari', 'Karangtengah', 'Selang', 'Baleharjo', 
-																'Siraman', 'Pulutan', 'Wareng', 'Duwet', 'Mulo', 'Wunung', 'Karangrejek'],
-													'Nglipar': ['Natah', 'Pilangrejo', 'Kedungpoh', 'Pengkol', 'Kedungkeris', 'Nglipar', 'Katongan'],
-													'Playen': ['Banyusoco', 'Plembutan', 'Bleberan', 'Getas', 'Dengok', 'Ngunut', 'Playen',
-																'Ngawu', 'Bandung', 'Logandeng', 'Gading', 'Banaran', 'Ngleri'],
-													'Patuk': ['Bunder', 'Beji', 'Pengkok', 'Semoyo', 'Salam', 'Patuk', 'Ngoro-oro', 'Nglanggeran', 'Putat', 'Nglegi', 'Terbah'],
-													'Paliyan': ['Sodo', 'Pampang', 'Grogol', 'Karangduwet', 'Karangasem', 'Mulusan', 'Giring'],
-													'Panggang': ['Girikarto', 'Girisekar', 'Girimulyo', 'Giriwungu', 'Giriharjo', 'Girisuko'],
-													'Tepus': ['Giripanggung', 'Sumberwungu', 'Sidoharjo', 'Tepus', 'Purwodadi'],
-													'Semanu': ['Ngeposari', 'Semanu', 'Pacarejo', 'Candirejo', 'Dadapayu'],
-													'Karangmojo':['Bejiharjo', 'Wiladeg', 'Bendungan', 'Kelor', 'Ngipak', 'Karangmojo', 'Gedangrejo', 'Ngawis', 'Jatiayu'],
-													'Ponjong':['Umbulrejo', 'Sawahan', 'Tambakromo', 'Kenteng', 'Sumbergiri', 'Genjahan', 'Ponjong', 
-																'Karangasem', 'Bedoyo', 'Sidorejo', 'Gombang'],
-													'Rongkop':['Bohol', 'Pringombo', 'Botodayaan', 'Petir', 'Pucanganom', 'Semugih', 'Melikan', 'Karangwuni'],
-													'Semin':    ['Kalitekuk', 'Kemejing', 'Bulurejo', 'Sumberejo', 'Bendung', 'Candirejo', 'Rejosari', 'Karangsari', 'Pundungsari', 'Semin'],
-													'Ngawen': ['Tancep', 'Sambirejo', 'Jurangjero', 'Kampung', 'Beji', 'Watusigar'],
-													'Gedangsari': ['Hargomulyo', 'Mertelu', 'Watugajah', 'Sampang', 'Serut', 'Ngalang', 'Tegalrejo'],
-													'Saptosari': ['Krambilsawit', 'Ngloro', 'Jetis', 'Kepek', 'Kanigoro', 'Monggol', 'Planjan'],
-													'Girisubo': ['Balong', 'Jepitu', 'Karangawen', 'Nglindur', 'Jerukwudel', 'Tileng', 'Pucung', 'Songbanyu'],
-													'Tanjungsari': ['Hargosari', 'Kemiri', 'Kemadang', 'Banjarejo', 'Ngestirejo'],
-													'Purwosari': ['Giripurwo', 'Giricahyo', 'Girijati', 'Giriasih', 'Giritirto']
-												};
-										
-												// Function to update desa options based on selected kecamatan
-												function updateDesaOptions() {
-													const kecamatan = document.getElementById('inputKecamatan').value;
-													const desaSelect = document.getElementById('inputDesa');
-													desaSelect.innerHTML = ''; // Clear existing options
-													
-													// Add options based on selected kecamatan
-													desaOptions[kecamatan].forEach(option => {
-														let optionElement = document.createElement('option');
-														optionElement.textContent = option;
-														desaSelect.appendChild(optionElement);
-										
+										<div>
+											<div>
+												<!--begin::CHART DISINI-->
+												<script>
+													// Bar chart
+													const ctx = document.getElementById('myChart');
+													new Chart(ctx, {
+														type: 'bar',
+														data: {
+															labels: ['Red', 'Blue', 'Yellow'],
+															datasets: [{
+																label: '5000 votes',
+																data: [1142, 1912, 1300],
+																borderWidth: 1
+															}]
+														},
+														options: {
+															scales: {
+																y: {
+																	beginAtZero: true
+																}
+															}
+														}
 													});
-												}
-												// Initial call to populate desa options on page load
-												updateDesaOptions();
-												// Event listener to update desa options when kecamatan selection changes
-												document.getElementById('inputKecamatan').addEventListener('change', updateDesaOptions);
-											</script>
+												</script>
+											</div>
+
+											<div>
+												<canvas id="myChartd" width="400" height="400"></canvas>
+												<script>
+													// Pie chart
+													const dataPie = {
+														labels: ['Red', 'Orange', 'Yellow'],
+														datasets: [{
+															label: 'Dataset 1',
+															data: [1213, 2314, 2213],
+															backgroundColor: ['#FF6384', '#FF9F40', '#FFCD56']
+														}]
+													};
+
+													const configPie = {
+														type: 'pie',
+														data: dataPie,
+														options: {
+															responsive: true,
+															plugins: {
+																legend: {
+																	position: 'top',
+																},
+																title: {
+																	display: true,
+																	text: 'Chart.js Pie Chart'
+																}
+															}
+														},
+													};
+
+													const ctxPie = document.getElementById('myChartd').getContext('2d');
+													new Chart(ctxPie, configPie);
+												</script>
+											</div>
+											<br>
+											<div>
+												<canvas id="myChartBar"></canvas>
+												<script>
+													// Bar chart with multiple datasets
+													const dataBar = {
+														labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+														datasets: [{
+															label: 'Dataset 1',
+															backgroundColor: 'rgba(255, 99, 132, 0.2)',
+															borderColor: 'rgba(255, 99, 132, 1)',
+															borderWidth: 1,
+															data: [1, 2, 3, 4, 5, 6, 7],
+														}, {
+															label: 'Dataset 2',
+															backgroundColor: 'rgba(54, 162, 235, 0.2)',
+															borderColor: 'rgba(54, 162, 235, 1)',
+															borderWidth: 1,
+															data: [7, 6, 5, 4, 3, 2, 1],
+														}, {
+															label: 'Dataset 2',
+															backgroundColor: 'rgba(60, 179, 113, 0.2)',
+															borderColor: 'rgba(60, 179, 113, 1)',
+															borderWidth: 1,
+															data: [5, 2, 1, 4, 15, 7, 2],
+														}, ]
+													};
+
+													const configBarKec = {
+														type: 'bar',
+														data: dataBar,
+														options: {
+															plugins: {
+																legend: {
+																	position: 'top',
+																},
+																title: {
+																	display: true,
+																	text: 'All Kecamatan'
+																}
+															},
+															scales: {
+																y: {
+																	beginAtZero: true
+																}
+															}
+														}
+													};
+													const ctxBar = document.getElementById('myChartBar').getContext('2d');
+													new Chart(ctxBar, configBarKec);
+												</script>
+											</div>
+											<div>
+												<canvas id="myChartBarDes"></canvas>
+												<script>
+													// Bar chart with multiple datasets
+													const dataBarDes = {
+														labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+														datasets: [{
+															label: 'Dataset 1',
+															backgroundColor: 'rgba(255, 99, 132, 0.2)',
+															borderColor: 'rgba(255, 99, 132, 1)',
+															borderWidth: 1,
+															data: [1, 2, 3, 4, 5, 6, 7],
+														}, {
+															label: 'Dataset 2',
+															backgroundColor: 'rgba(54, 162, 235, 0.2)',
+															borderColor: 'rgba(54, 162, 235, 1)',
+															borderWidth: 1,
+															data: [7, 6, 5, 4, 3, 2, 1],
+														}, {
+															label: 'Dataset 2',
+															backgroundColor: 'rgba(60, 179, 113, 0.2)',
+															borderColor: 'rgba(60, 179, 113, 1)',
+															borderWidth: 1,
+															data: [5, 2, 1, 4, 15, 7, 2],
+														}, ]
+													};
+
+													const configBarDes = {
+														type: 'bar',
+														data: dataBarDes,
+														options: {
+															plugins: {
+																legend: {
+																	position: 'top',
+																},
+																title: {
+																	display: true,
+																	text: 'All Desa'
+																}
+															},
+															scales: {
+																y: {
+																	beginAtZero: true
+																}
+															}
+														}
+													};
+													const ctxBarDes = document.getElementById('myChartBarDes').getContext('2d');
+													new Chart(ctxBarDes, configBarDes);
+												</script>
+											</div>
 										</div>
 										<!--end::Details-->
 									</div>
 								</div>
 								<!--end::Navbar-->
-																
-								
 							</div>
 							<!--end::Content container-->
 						</div>
@@ -646,7 +692,7 @@
 									class="text-gray-800 text-hover-primary">uzanlatif</a>
 							</div>
 							<!--end::Copyright-->
-							
+
 						</div>
 						<!--end::Footer container-->
 					</div>
@@ -1116,7 +1162,7 @@
 										<!--begin::User-->
 										<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip"
 											data-bs-boundary="window" data-bs-placement="top" title="Nina Nilson">
-											<img src="assets/media/avatars/300-14.jpg" alt="img" />
+											<img src="assets/media/logos/change-mode.png" alt="img" />
 										</div>
 										<!--end::User-->
 									</div>
@@ -1852,7 +1898,7 @@
 							<div class="d-flex align-items-center mb-2">
 								<!--begin::Avatar-->
 								<div class="symbol  symbol-35px symbol-circle "><img alt="Pic"
-										src="assets/media/avatars/300-25.jpg" /></div>
+										src="assets/media/logos/change-mode.png" /></div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
 								<div class="ms-3">
@@ -1889,7 +1935,7 @@
 
 								<!--begin::Avatar-->
 								<div class="symbol  symbol-35px symbol-circle "><img alt="Pic"
-										src="assets/media/avatars/300-1.jpg" /></div>
+										src="assets/media/logos/change-mode.png" /></div>
 								<!--end::Avatar-->
 							</div>
 							<!--end::User-->
@@ -1913,7 +1959,7 @@
 							<div class="d-flex align-items-center mb-2">
 								<!--begin::Avatar-->
 								<div class="symbol  symbol-35px symbol-circle "><img alt="Pic"
-										src="assets/media/avatars/300-25.jpg" /></div>
+										src="assets/media/logos/change-mode.png" /></div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
 								<div class="ms-3">
@@ -1950,7 +1996,7 @@
 
 								<!--begin::Avatar-->
 								<div class="symbol  symbol-35px symbol-circle "><img alt="Pic"
-										src="assets/media/avatars/300-1.jpg" /></div>
+										src="assets/media/logos/change-mode.png" /></div>
 								<!--end::Avatar-->
 							</div>
 							<!--end::User-->
@@ -1973,7 +2019,7 @@
 							<div class="d-flex align-items-center mb-2">
 								<!--begin::Avatar-->
 								<div class="symbol  symbol-35px symbol-circle "><img alt="Pic"
-										src="assets/media/avatars/300-25.jpg" /></div>
+										src="assets/media/logos/change-mode.png" /></div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
 								<div class="ms-3">
@@ -2011,7 +2057,7 @@
 
 								<!--begin::Avatar-->
 								<div class="symbol  symbol-35px symbol-circle "><img alt="Pic"
-										src="assets/media/avatars/300-1.jpg" /></div>
+										src="assets/media/logos/change-mode.png" /></div>
 								<!--end::Avatar-->
 							</div>
 							<!--end::User-->
@@ -2034,7 +2080,7 @@
 							<div class="d-flex align-items-center mb-2">
 								<!--begin::Avatar-->
 								<div class="symbol  symbol-35px symbol-circle "><img alt="Pic"
-										src="assets/media/avatars/300-25.jpg" /></div>
+										src="assets/media/logos/change-mode.png" /></div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
 								<div class="ms-3">
@@ -2072,7 +2118,7 @@
 
 								<!--begin::Avatar-->
 								<div class="symbol  symbol-35px symbol-circle "><img alt="Pic"
-										src="assets/media/avatars/300-1.jpg" /></div>
+										src="assets/media/logos/change-mode.png" /></div>
 								<!--end::Avatar-->
 							</div>
 							<!--end::User-->
@@ -2095,7 +2141,7 @@
 							<div class="d-flex align-items-center mb-2">
 								<!--begin::Avatar-->
 								<div class="symbol  symbol-35px symbol-circle "><img alt="Pic"
-										src="assets/media/avatars/300-25.jpg" /></div>
+										src="assets/media/logos/change-mode.png" /></div>
 								<!--end::Avatar-->
 								<!--begin::Details-->
 								<div class="ms-3">
@@ -2513,7 +2559,7 @@
 	<!--end::Chat drawer-->
 	<!--end::Drawers-->
 	<!--begin::Engage-->
-	
+
 	<!--begin::Scrolltop-->
 	<div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
 		<i class="ki-outline ki-arrow-up"></i></div>
@@ -3360,7 +3406,7 @@
 									</div>
 									<!--end::Heading-->
 
-																		<!--begin::Illustration-->
+									<!--begin::Illustration-->
 									<div class="text-center px-4">
 										<img src="assets/media/illustrations/sketchy-1/9.png" alt=""
 											class="mww-100 mh-350px" />
@@ -5466,7 +5512,7 @@
 									</a>
 									<!--end::User-->
 									<!--begin::User-->
-									
+
 									<!--end::User-->
 									<!--begin::User-->
 									<a href="#"
@@ -7070,4 +7116,5 @@
 
 </body>
 <!--end::Body-->
+
 </html>

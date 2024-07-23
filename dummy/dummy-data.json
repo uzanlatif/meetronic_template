@@ -1,0 +1,46 @@
+{
+    "kabupaten": "Kabupaten Gunungkidul",
+    "kecamatan": [{
+        "nama": "Kecamatan A",
+        "desa": [{
+                "nama": "Desa A",
+                "suara 1": "12",
+                "suara 2": "12",
+                "suara 3": "12"
+            },
+            {
+                "nama": "Desa A",
+                "suara 1": "12",
+                "suara 2": "12",
+                "suara 3": "12"
+            },
+            {
+                "nama": "Desa A",
+                "suara 1": "12",
+                "suara 2": "12",
+                "suara 3": "12"
+            }
+        ]
+    }, {
+        "nama": "Kecamatan B",
+        "desa": [{
+                "nama": "Desa A",
+                "suara 1": "12",
+                "suara 2": "12",
+                "suara 3": "12"
+            },
+            {
+                "nama": "Desa A",
+                "suara 1": "12",
+                "suara 2": "12",
+                "suara 3": "12"
+            },
+            {
+                "nama": "Desa A",
+                "suara 1": "12",
+                "suara 2": "12",
+                "suara 3": "12"
+            }
+        ]
+    }]
+}

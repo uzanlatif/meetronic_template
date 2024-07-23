@@ -23,19 +23,19 @@
                                         <option value="Playen">Playen</option>
                                         <option value="Patuk">Patuk</option>
                                         <option value="Paliyan">Paliyan</option>
-                                        <option value="Wonosari">Panggang</option>
-                                        <option value="Nglipar">Tepus</option>
-                                        <option value="Playen">Semanu</option>
-                                        <option value="Patuk">Karangmojo</option>
-                                        <option value="Paliyan">Ponjong</option>
-                                        <option value="Paliyan">Rongkop</option>
-                                        <option value="Wonosari">Semin</option>
-                                        <option value="Nglipar">Ngawen</option>
-                                        <option value="Playen">Gedangsari</option>
-                                        <option value="Patuk">Saptosari</option>
-                                        <option value="Paliyan">Girisubo</option>
-                                        <option value="Patuk">Tanjungsari</option>
-                                        <option value="Paliyan">Purwosari</option>
+                                        <option value="Panggang">Panggang</option>
+                                        <option value="Tepus">Tepus</option>
+                                        <option value="Semanu">Semanu</option>
+                                        <option value="Karangmojo">Karangmojo</option>
+                                        <option value="Ponjong">Ponjong</option>
+                                        <option value="Rongkop">Rongkop</option>
+                                        <option value="Semin">Semin</option>
+                                        <option value="Ngawen">Ngawen</option>
+                                        <option value="Gedangsari">Gedangsari</option>
+                                        <option value="Saptosari">Saptosari</option>
+                                        <option value="Girisubo">Girisubo</option>
+                                        <option value="Tanjungsari">Tanjungsari</option>
+                                        <option value="Purwosari">Purwosari</option>
                                     </select>
                                 </div>
                                 <div class="form-group" id="desaForm">

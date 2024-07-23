@@ -3,7 +3,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
-	<title>INPUT DATA</title>
+	<title>PILKADA GK</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="
 			The most advanced Bootstrap 5 Admin Theme with 40 unique prebuilt layouts on Themeforest trusted by 100,000 beginners and professionals. Multi-demo, 
